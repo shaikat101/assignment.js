@@ -1,31 +1,31 @@
 // // seerToMon convert
-// function seerToMon(seer){
-//     if(seer < 0 || typeof seer != 'number'){
-//         return "please input valid number";
-//     }
-//     else{
-//         mon = seer / 40;
-//         return mon;
-//     }
-// }
-// const totalMon = seerToMon(120);
-// console.log(totalMon); 
+function seerToMon(seer){
+    if(seer < 0 || typeof seer != 'number'){
+        return "please input valid number";
+    }
+    else{
+        mon = seer / 40;
+        return mon;
+    }
+}
+const totalMon = seerToMon(120);
+console.log(totalMon); 
 
 // // totalSales price
-// function totalSales(shirt, pant, shoe){
-//     if(shirt<0 || pant<0 || shoe<0 || typeof shirt!= "number" || typeof pant!= "number" || typeof shoe!= "number"){
-//         return "please input valid number";
-//     }
-//     else{
-//         let shirtPrice = shirt * 100;
-//         let pantPrice = pant * 200;
-//         let shoePrice = shoe * 500;
-//         let totalPrice = shirtPrice + pantPrice + shoePrice;
-//         return totalPrice;
-//     }
-// }
-// const totalSalesPrice = totalSales(2,2,2);
-// console.log(totalSalesPrice);
+function totalSales(shirt, pant, shoe){
+    if(shirt<0 || pant<0 || shoe<0 || typeof shirt!= "number" || typeof pant!= "number" || typeof shoe!= "number"){
+        return "please input valid number";
+    }
+    else{
+        let shirtPrice = shirt * 100;
+        let pantPrice = pant * 200;
+        let shoePrice = shoe * 500;
+        let totalPrice = shirtPrice + pantPrice + shoePrice;
+        return totalPrice;
+    }
+}
+const totalSalesPrice = totalSales(2,2,2);
+console.log(totalSalesPrice);
 
 // // deliveryCost total
 function deliveryCost (product){
@@ -59,28 +59,22 @@ function deliveryCost (product){
  console.log(allTotalCost);
 
 
-// // perfectFreiend 
-// function perfectFriend(friendNames){
+// perfectFreiend 
+function perfectFriend(friendNames){
 
-//         for (let i = 0; i < friendNames.length; i++){
+        for (let i = 0; i < friendNames.length; i++){
 
-//             if ( typeof friendNames[i] != "string" ){
-//                 return "Please input valid String";
-//               }
-//             const element = friendNames[i];
-//             if ( element.length==5){
-//                 return element;
-//             }
-//      }
-//       }
-// const friendNames = [ 'rafi','mou','sohan','shaikat','hasibur'];
-// var nameWithFiveElement = perfectFriend( friendNames);
-// console.log(nameWithFiveElement);
+            if ( typeof friendNames[i] != "string" ){
+                return "Please input valid String";
+              }
+            const element = friendNames[i];
+            if ( element.length==5){
+                return element;
+            }
+     }
+      }
+const friendNames = [ 'rafi','mou','sohan','shaikat','hasibur'];
+var nameWithFiveElement = perfectFriend( friendNames);
+console.log(nameWithFiveElement);
 
-// var a = '10';
-// var b = 10;
-// console.log( '10' == 11);
-// console.log(a!=b);
-// console.log(a!==b);
-// console.log (a==b);
-// console.log(a===b);
+
